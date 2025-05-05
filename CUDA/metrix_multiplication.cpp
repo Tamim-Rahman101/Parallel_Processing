@@ -1,5 +1,11 @@
 // %%writefile asif.cu  // Uncomment this line when using Google Colab to save file
 
+/*
+    How to run in googl colab:
+        !nvcc -arch=sm_75 asif.cu -o asif
+        !time ./asif 1 10 && sleep 2
+*/
+
 #include <iostream>
 #include <cuda_runtime.h>
 using namespace std;
